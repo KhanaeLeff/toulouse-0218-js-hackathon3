@@ -1,5 +1,9 @@
-.pageun{
+.pageun, .pagetrois{
   background-color: #1e3278;
   height : 100vh;
   width: 100vw;
+}
+
+.pagedeux{
+  background-color: #ffdc00;
 }

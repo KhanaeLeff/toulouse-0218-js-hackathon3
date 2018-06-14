@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Accueil from './components/Accueil'
+import FullPage from './FullPage'
 import './App.css'
 
 class App extends Component {
   render () {
     return (
       <div>
-        <Accueil />
+        <FullPage />
       </div>
     )
   }
