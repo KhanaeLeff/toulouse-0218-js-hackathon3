@@ -6,20 +6,12 @@ class Accueil extends Component {
   //   super(props)
   //   this.state = {
   //   }
+
   render () {
     return (
-      <Grid columns='one'>
-        <Grid columns='three'>
-          <Grid.Row>
-            <p> Coucou </p>
-          </Grid.Row>
-          <Grid.Row>
-            <p> Coucou </p>
-          </Grid.Row>
-          <Grid.Row>
-            <p> Coucou </p>
-          </Grid.Row>
-        </Grid>
+      <Grid className="pageun" centered columns='one'>
+        <Grid.Row>
+        </Grid.Row>
       </Grid>
     )
   }
