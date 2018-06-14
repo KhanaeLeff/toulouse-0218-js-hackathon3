@@ -1,18 +1,22 @@
 import React from 'react'
 import {FullPage, Slide} from 'react-full-page'
+import {Grid, Image} from 'semantic-ui-react'
+import terre from './images/terre.png'
 
 class PageSlide extends React.Component {
   render () {
     return (
       <FullPage>
         <Slide className="pageun">
-          <h1>Inner slide content</h1>
         </Slide>
         <Slide className="pagedeux">
-          <h1>Another slide content</h1>
+          <Grid column='one'>
+            <Grid.Column>
+              <Image src={terre} centered alt="pourquoi ça marche pas ?"></Image>
+            </Grid.Column>
+          </Grid>
         </Slide>
         <Slide className="pagetrois">
-          <h1>The last one</h1>
         </Slide>
       </FullPage>
     )
