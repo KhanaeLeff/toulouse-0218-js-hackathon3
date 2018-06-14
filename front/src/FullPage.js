@@ -1,6 +1,6 @@
 import React from 'react'
 import {FullPage, Slide} from 'react-full-page'
-import {Grid, Image} from './node-modules/semantic-ui-react'
+import {Grid, Image} from '../node_modules/semantic-ui-react'
 import terre from './images/terre.png'
 
 class PageSlide extends React.Component {
