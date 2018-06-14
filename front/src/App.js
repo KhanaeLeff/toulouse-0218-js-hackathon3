@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Accueil from './components/Accueil'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div>
         <Accueil />

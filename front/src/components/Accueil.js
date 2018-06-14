@@ -1,4 +1,4 @@
-import {React, Component} from 'react'
+import React, { Component } from 'react'
 import { Grid, Image } from 'semantic-ui-react'
 
 class Accueil extends Component {
@@ -8,18 +8,18 @@ class Accueil extends Component {
   //   }
   render () {
     return (
-      <Grid columns='three' divided>
-        <Grid.Row>
-          <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-          </Grid.Column>
-          <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-          </Grid.Column>
-          <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-          </Grid.Column>
-        </Grid.Row>
+      <Grid columns='one'>
+        <Grid columns='three'>
+          <Grid.Row>
+            <p> Coucou </p>
+          </Grid.Row>
+          <Grid.Row>
+            <p> Coucou </p>
+          </Grid.Row>
+          <Grid.Row>
+            <p> Coucou </p>
+          </Grid.Row>
+        </Grid>
       </Grid>
     )
   }
