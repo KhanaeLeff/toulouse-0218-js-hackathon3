@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import Carousel from './Carousel'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div>
         Happy Hacking!!!
+        <Carousel />
       </div>
     )
   }
