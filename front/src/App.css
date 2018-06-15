@@ -15,6 +15,7 @@
 .pagetrois{
   background-color: #1e3278;
   color: #ffdc00;
+  padding-top: 2%;
 }
 
 .earth{
@@ -55,4 +56,8 @@
 
 .contribuez{
   margin-left: 62.5%;
+}
+
+.Form{
+  color:#ffdc00;
 }
