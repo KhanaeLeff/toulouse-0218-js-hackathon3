@@ -3,7 +3,6 @@ import FullPage from './FullPage'
 import './App.css'
 import Carousel from './Carousel'
 
-
 class App extends Component {
   render () {
     return (

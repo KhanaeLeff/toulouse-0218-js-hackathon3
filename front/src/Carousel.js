@@ -1,5 +1,6 @@
 /* global $ */
 import React, { Component } from 'react'
+import './App.css'
 
 class Carousel extends Component {
   render () {
