@@ -2,24 +2,39 @@ import React from 'react'
 import {FullPage, Slide} from 'react-full-page'
 import {Grid, Image} from '../node_modules/semantic-ui-react'
 import terre from './images/terre.png'
-import WinNews from './images/Win_News.png'
-import Boules from './images/traitboules.png'
+import WinNews from './images/WinNews.png'
 
-let options= {
-  arrowNavigation: true,
-  navigation: true,
-
-}
 class PageSlide extends React.Component {
   render () {
     return (
       <FullPage>
         <Slide options className="pageun">
-          <Grid column='three'>
-            <Grid.Row verticalAlign='middle'>
+          <Grid column='five'>
+            <Grid.Row>
               <Grid.Column>
-                <Image className="winNews" src={WinNews} centered></Image>
-                <Image className="boules" src={Boules} centered></Image>
+              </Grid.Column>
+              <Grid.Column className="tagEcologie">
+                <a> Ecologie </a>
+              </Grid.Column>
+              <Grid.Column>
+              </Grid.Column>
+              <Grid.Column>
+              </Grid.Column>
+              <Grid.Column className="tagSocial">
+                <a> Social </a>
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column className="tagSante">
+                <a> Santé </a>
+              </Grid.Column>
+              <Grid.Column className="tagEconomie">
+                <a> Economie </a>
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column className="tagTechno">
+                <a> Technologie </a>
               </Grid.Column>
             </Grid.Row>
           </Grid>

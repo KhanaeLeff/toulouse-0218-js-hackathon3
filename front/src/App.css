@@ -1,4 +1,8 @@
-.pageun, .pagetrois{
+.pageun {
+  background-image:url('./images/WinNews.png');
+  background-repeat: no-repeat;
+  background-size: 68%;
+  background-position: center;
   background-color: #1e3278;
   height : 100vh;
   width: 100vw;
@@ -8,22 +12,39 @@
   background-color: #ffdc00;
 }
 
-.winNews{
-  margin-top:6%;
-  width: 35%;
-  z-index:2;
-}
-
 .earth{
   margin-top:2%;
   width: 45%;
 }
 
-.boules{
-  margin-top:-40.7%;
-  z-index: 1;
-}
-
 .ui-coverflow-wrapper{
   margin-top:11%;
+}
+
+a{
+  color:#1e3278;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.tagEcologie{
+  margin-left:24.7%;
+  padding-top:3.7%;
+}
+.tagSocial{
+  margin-left:69%;
+  padding-top:1%;
+}
+.tagEconomie{
+  margin-left:72.7%;
+  padding-top:7.7%;
+}
+.tagTechno{
+  margin-left:22.3%;
+  padding-top: 7%;
+}
+.tagSante{
+  margin-left:19.7%;
+  padding-top:9.5%;
 }
