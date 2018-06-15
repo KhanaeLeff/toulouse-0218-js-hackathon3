@@ -68,11 +68,13 @@ class PageSlide extends React.Component {
               <Form.Field control={Input} label="Localisation" placeholder="Brest" />
             </Form.Group>
             <Form.Field control={TextArea} label="Résumé de l'article" placeholder='Tout le monde aime le beurre salé ! [...]'/>
-            <Form.Field control={Checkbox} label='Ecologie' />
-            <Form.Field control={Checkbox} label='Santé' />
-            <Form.Field control={Checkbox} label='Techonologie' />
-            <Form.Field control={Checkbox} label='Economie' />
-            <Form.Field control={Checkbox} label='Social' />
+            <Form.Group wdths='equal'>
+              <Form.Field control={Checkbox} label='Ecologie' />
+              <Form.Field control={Checkbox} label='Santé' />
+              <Form.Field control={Checkbox} label='Techonologie' />
+              <Form.Field control={Checkbox} label='Economie' />
+              <Form.Field control={Checkbox} label='Social' />
+            </Form.Group>
             <Form.Field control={Button}>Uploadez votre vidéo (15s max)</Form.Field>
           </Form>
         </Slide>
