@@ -32,9 +32,6 @@ class PageSlide extends React.Component {
             </Grid.Column>
           </Grid>
         </Slide>
-
-        <Slide className="pagetrois">
-        </Slide>
       </FullPage>
     )
   }

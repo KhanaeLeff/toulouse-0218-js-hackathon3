@@ -15,11 +15,15 @@
 }
 
 .earth{
-  margin-top:8%;
-  width: 35%;
+  margin-top:2%;
+  width: 45%;
 }
 
 .boules{
   margin-top:-40.7%;
   z-index: 1;
+}
+
+.ui-coverflow-wrapper{
+  margin-top:11%;
 }

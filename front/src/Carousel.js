@@ -1,5 +1,6 @@
 /* global $ */
 import React, { Component } from 'react'
+import './App.css'
 
 class Carousel extends Component {
   render () {
@@ -43,48 +44,6 @@ class Carousel extends Component {
             data-license="http://creativecommons.org/licenses/by/2.0/"
             data-contact="http://www.flickr.com/photos/exquisitur/"
             data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/thesidewinder.jpg"
-            alt="Lee Morgan - The Sidewinder"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/jazzgiant.jpg"
-            alt="Bud Powell - Jazz Giant"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/milestones.jpg"
-            alt="Miles Davis - Milestones"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/billieholiday.jpg"
-            alt="Billie Holiday - lady in autumn: the best of the verve years"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/fineandmellow.jpg"
-            alt="Ella Fitzgerald - Fine and mellow"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/scenesinthecity.jpg"
-            alt="Branford Maralis - Scenes in the city"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/acdc.jpg"
-            alt="ACDC"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/mccoycreations/"
-            data-author="Mary McCoy" />
         </div>
       </div>
     )
