@@ -12,6 +12,10 @@
   background-color: #ffdc00;
 }
 
+.pagetrois{
+  background-color: #1e3278;
+}
+
 .earth{
   margin-top:2%;
   width: 45%;
@@ -21,11 +25,10 @@
   margin-top:11%;
 }
 
-a{
+.pageun a{
   color:#1e3278;
   font-weight: bold;
   font-size: 25px;
-
 }
 
 .tagEcologie{
@@ -47,4 +50,12 @@ a{
 .tagSante{
   margin-left:19.7%;
   padding-top:9.5%;
+}
+
+.contribuez{
+  margin-left: 62.5%;
+}
+
+.pagetrois placeholder {
+  color: #ffdc00;
 }
