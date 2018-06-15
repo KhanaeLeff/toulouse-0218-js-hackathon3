@@ -2,6 +2,7 @@ import React from 'react'
 import {FullPage, Slide} from 'react-full-page'
 import {Grid, Image, Button, Icon, Form, Header, Checkbox, Modal, Input, Radio, Select, options, value, TextArea} from '../node_modules/semantic-ui-react'
 import terre from './images/terre.png'
+import toulouse from './images/toulouse.png'
 
 class PageSlide extends React.Component {
   // onClick = i => e =>
@@ -35,6 +36,8 @@ class PageSlide extends React.Component {
             <Grid.Row>
               <Grid.Column className="tagSante">
                 <a clas="video" href='#pagedeux'> Social </a>
+              </Grid.Column>
+              <Grid.Column>
               </Grid.Column>
               <Grid.Column className="tagEconomie">
                 <a className="video" href='#pagedeux'> Economie </a>
