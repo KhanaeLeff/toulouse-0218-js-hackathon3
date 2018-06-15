@@ -13,27 +13,27 @@ class PageSlide extends React.Component {
               <Grid.Column>
               </Grid.Column>
               <Grid.Column className="tagEcologie">
-                <a> Ecologie </a>
+                <a href='#pagedeux'> Ecologie </a>
               </Grid.Column>
               <Grid.Column>
               </Grid.Column>
               <Grid.Column>
               </Grid.Column>
               <Grid.Column className="tagSocial">
-                <a> Social </a>
+                <a href='#pagedeux'> Social </a>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
               <Grid.Column className="tagSante">
-                <a> Santé </a>
+                <a href='#pagedeux'> Santé </a>
               </Grid.Column>
               <Grid.Column className="tagEconomie">
-                <a> Economie </a>
+                <a href='#pagedeux'> Economie </a>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
               <Grid.Column className="tagTechno">
-                <a> Technologie </a>
+                <a href='#pagedeux'> Technologie </a>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
