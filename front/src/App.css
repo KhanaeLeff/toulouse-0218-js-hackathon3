@@ -21,11 +21,9 @@
   margin-top:11%;
 }
 
-a{
-  color:#1e3278;
-  font-weight: bold;
+.pageun a{
   font-size: 25px;
-
+  font-weight: bold;
 }
 
 .tagEcologie{
@@ -47,4 +45,7 @@ a{
 .tagSante{
   margin-left:19.7%;
   padding-top:9.5%;
+}
+.slogan{
+  margin-left: 20%;
 }
