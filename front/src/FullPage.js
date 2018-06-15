@@ -4,6 +4,15 @@ import {Grid, Image, Button, Icon, Form, Header, Checkbox, Modal, Input, Radio, 
 import terre from './images/terre.png'
 
 class PageSlide extends React.Component {
+  // onClick = i => e =>
+  componentDidMount() {
+    const links = document.getElementsByClassName("video")
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", e => {
+          this.props.onClickLink(i)
+        })
+    }
+  }
   render () {
     return (
       <FullPage>
@@ -13,27 +22,27 @@ class PageSlide extends React.Component {
               <Grid.Column>
               </Grid.Column>
               <Grid.Column className="tagEcologie">
-                <a href='#pagedeux'> Ecologie </a>
+                <a className="video" href='#pagedeux'> Ecologie </a>
               </Grid.Column>
               <Grid.Column>
               </Grid.Column>
               <Grid.Column>
               </Grid.Column>
               <Grid.Column className="tagSocial">
-                <a href='#pagedeux'> Social </a>
+                <a className="video" href='#pagedeux'> Santé </a>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
               <Grid.Column className="tagSante">
-                <a href='#pagedeux'> Santé </a>
+                <a clas="video" href='#pagedeux'> Social </a>
               </Grid.Column>
               <Grid.Column className="tagEconomie">
-                <a href='#pagedeux'> Economie </a>
+                <a className="video" href='#pagedeux'> Economie </a>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
               <Grid.Column className="tagTechno">
-                <a href='#pagedeux'> Technologie </a>
+                <a className="video" href='#pagedeux'> Technologie </a>
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
