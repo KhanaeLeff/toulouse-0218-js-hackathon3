@@ -7,84 +7,89 @@ class Carousel extends Component {
       <div className="ui-coverflow-wrapper ui-clearfix">
 
         <div className="wrapper ui-coverflow" id="coverflow">
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/musicforthejiltedgeneration.jpg"
-            alt="The Prodigy - music for the jilted generation"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/iscream.jpg"
-            alt="Nana Kitade - I scream"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/puuikibeach/"
-            data-author="davidd" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/isayyeah.jpg"
-            alt="I say Yeah!"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/fotologic/"
-            data-author="fotologic" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/bluesalley.jpg"
-            alt="Wynton Maralis - blues alley"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/studyinbrown.jpg"
-            alt="Study In Brown"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/thewall.jpg"
-            alt="Pink Floyd - The wall"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/thesidewinder.jpg"
-            alt="Lee Morgan - The Sidewinder"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/jazzgiant.jpg"
-            alt="Bud Powell - Jazz Giant"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/milestones.jpg"
-            alt="Miles Davis - Milestones"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/billieholiday.jpg"
-            alt="Billie Holiday - lady in autumn: the best of the verve years"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/fineandmellow.jpg"
-            alt="Ella Fitzgerald - Fine and mellow"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/scenesinthecity.jpg"
-            alt="Branford Maralis - Scenes in the city"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/exquisitur/"
-            data-author="Jason Hickey" />
-          <img
-            src="https://coverflowjs.github.io/coverflow/assets/img/acdc.jpg"
-            alt="ACDC"
-            data-license="http://creativecommons.org/licenses/by/2.0/"
-            data-contact="http://www.flickr.com/photos/mccoycreations/"
-            data-author="Mary McCoy" />
+
+          <div className="ui card">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/nc7Z3EBMevg?&autoplay=0" frameBorder="500">
+            </iframe>
+            <div className="content" width='400px' >
+              <a className="header" href="https://www.pepsnews.com/combien-de-minutes-de-sport-pour-etre-heureux/" target="blank">Le sport rend heureux, c’est mesuré </a>
+              <br/>
+              <div className="meta">
+                <a>Une étude portant sur plus de 500 000 personnes  publiée dans le Journal of Happiness Studies, a découvert que la pratique d’une activité physique durant seulement 10 minutes au courant de la semaine peut améliorer considérablement les chances de se sentir heureux.</a>
+                <br/>
+              </div>
+            </div>
+          </div>
+
+           <div className="ui card">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/CP_2T9oTyBc?&autoplay=0" frameBorder="500">
+            </iframe>
+            <div className="content" width='400px' >
+              <a className="header" href="https://www.pepsnews.com/un-ordinateur-pour-detecter-plus-precisement-le-cancer-de-la-peau/" target="blank">Une IA contre le cancer</a>
+              <br/>
+              <div className="meta">
+                <a>Une équipe de chercheurs allemands, américains et français a créé un système d’intelligence artificielle qui permet de distinguer les lésions cutanées dangereuses des lésions bénignes. Pour son apprentissage, la machine a assimilé plus de 100 000 images et lors d’une confrontation avec des dermatologues, cette intelligence artificielle a détecté 95% de mélanomes contre 86,6  
+Pour en savoir plus cliquez ici </a>
+                <br/>
+              </div>
+            </div>
+          </div>
+          <div className="ui card">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/nc7Z3EBMevg?&autoplay=0" frameBorder="500">
+            </iframe>
+            <div className="content" width='400px' >
+              <a className="header" href="https://www.pepsnews.com/combien-de-minutes-de-sport-pour-etre-heureux/" target="blank">L'Article de presse </a>
+              <br/>
+              <div className="meta">
+                <a>Une étude portant sur plus de 500 000 personnes  publiée dans le Journal of Happiness Studies, a découvert que la pratique d’une activité physique durant seulement 10 minutes au courant de la semaine peut améliorer considérablement les chances de se sentir heureux.</a>
+                <br/>
+              </div>
+            </div>
+          </div>
+          <div className="ui card">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/nc7Z3EBMevg?&autoplay=0" frameBorder="500">
+            </iframe>
+            <div className="content" width='400px' >
+              <a className="header" href="https://www.pepsnews.com/combien-de-minutes-de-sport-pour-etre-heureux/" target="blank">L'Article de presse </a>
+              <br/>
+              <div className="meta">
+                <a>Une étude portant sur plus de 500 000 personnes  publiée dans le Journal of Happiness Studies, a découvert que la pratique d’une activité physique durant seulement 10 minutes au courant de la semaine peut améliorer considérablement les chances de se sentir heureux.</a>
+                <br/>
+              </div>
+            </div>
+          </div>
+          <div className="ui card">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/nc7Z3EBMevg?&autoplay=0" frameBorder="500">
+            </iframe>
+            <div className="content" width='400px' >
+              <a className="header" href="https://www.pepsnews.com/combien-de-minutes-de-sport-pour-etre-heureux/" target="blank">L'Article de presse </a>
+              <br/>
+              <div className="meta">
+                <a>Une étude portant sur plus de 500 000 personnes  publiée dans le Journal of Happiness Studies, a découvert que la pratique d’une activité physique durant seulement 10 minutes au courant de la semaine peut améliorer considérablement les chances de se sentir heureux.</a>
+                <br/>
+              </div>
+            </div>
+          </div>
+          <div className="ui card">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/nc7Z3EBMevg?&autoplay=0" frameBorder="500">
+            </iframe>
+            <div className="content" width='400px' >
+              <a className="header" href="https://www.pepsnews.com/combien-de-minutes-de-sport-pour-etre-heureux/" target="blank">L'Article de presse </a>
+              <br/>
+              <div className="meta">
+                <a>Une étude portant sur plus de 500 000 personnes  publiée dans le Journal of Happiness Studies, a découvert que la pratique d’une activité physique durant seulement 10 minutes au courant de la semaine peut améliorer considérablement les chances de se sentir heureux.</a>
+                <br/>
+              </div>
+            </div>
+          </div>
+          
+
         </div>
       </div>
     )
@@ -93,7 +98,7 @@ class Carousel extends Component {
     $(function () {
       var $license = $('#license')
       var $coverflow = $('#coverflow').coverflow({
-        active: 2
+        active: 5
         // select: function (ev, ui) {
         //   var el = ui.active
 
